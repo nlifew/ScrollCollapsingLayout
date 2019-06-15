@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScrollCollapsingLayout">
+
+        <attr name="expandedTitleMargin" />
+        <attr name="expandedTitleMarginStart" />
+        <attr name="expandedTitleMarginTop" />
+        <attr name="expandedTitleMarginEnd" />
+        <attr name="expandedTitleMarginBottom" />
+        <attr name="expandedTitleTextAppearance" />
+        <attr name="collapsedTitleTextAppearance" />
+        <attr name="contentScrim" />
+        <attr name="statusBarScrim" />
+        <attr name="toolbarId" />
+        <attr name="scrimVisibleHeightTrigger" />
+        <attr name="scrimAnimationDuration" />
+
+        <attr name="collapsedTitleGravity" />
+
+        <attr name="expandedTitleGravity" />
+        <attr name="titleEnabled" />
+        <attr name="title"/>
+    </declare-styleable>
+
+    <declare-styleable name="ScrollCollapsingLayout_Layout">
+        <attr name="collapseMode">
+            <enum name="none" value="0"/>
+            <enum name="pin" value="1"/>
+            <enum name="parallax" value="2"/>
+            <enum name="scroll" value="3" />
+        </attr>
+
+        <attr name="collapseParallaxMultiplier" />
+
+        <attr name="collapsedGravity">
+            <flag name="top" value="0x30"/>
+            <flag name="bottom" value="0x50"/>
+            <flag name="left" value="0x03"/>
+            <flag name="right" value="0x05"/>
+            <flag name="center_vertical" value="0x10"/>
+            <flag name="fill_vertical" value="0x70"/>
+            <flag name="center_horizontal" value="0x01"/>
+            <flag name="center" value="0x11"/>
+            <flag name="start" value="0x00800003"/>
+            <flag name="end" value="0x00800005"/>
+        </attr>
+
+        <attr name="collapsedMargin" format="dimension"/>
+        <attr name="collapsedMarginStart" format="dimension"/>
+        <attr name="collapsedMarginTop" format="dimension"/>
+        <attr name="collapsedMarginEnd" format="dimension"/>
+        <attr name="collapsedMarginBottom" format="dimension"/>
+    </declare-styleable>
+
+</resources>
